@@ -1,4 +1,3 @@
-setwd("C:/PhD nu kaam/Obj #2 DSM with ML")
 library(stringr)
 clu <- read.csv("Cluster_wise_meters.csv")
 #orig_data <- read.csv("KOL_15mins_final_merged_kNN1.csv", sep=",", stringsAsFactors=FALSE)
