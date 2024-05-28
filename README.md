@@ -1,5 +1,5 @@
 # Informed-Decision-Making-for-DSM-and-NM
-This work is includes clustering of smart meter electricity data usind R and statistical analysis of derived clusters using python.
+This work is includes clustering of smart meter electricity data usind R and statistical analysis of derived clusters using python. The dataset used in this work is 15-minutes interval time-series electricity consumption data. The data is not shared due to the privacy concerns.
 
 This work is already published in Sustainable Energy, Grids, and Networks Journal, Elsevier. You can find it at https://doi.org/10.1016/j.segan.2022.100771
 
