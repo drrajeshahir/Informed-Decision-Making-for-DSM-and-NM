@@ -1,8 +1,7 @@
-######  Import database 
-setwd("C:/PhD nu kaam/Obj #2 DSM with ML")
+######  Import database
 source("multiplot.R")
 #original one
-rubi_net <- read.csv("D:/KOL_15mins_final_data-11839.csv", sep=",", stringsAsFactors=FALSE)
+rubi_net <- read.csv("D:/mins15_final_data-11839.csv", sep=",", stringsAsFactors=FALSE)
 rubi_net$idmeter = as.numeric(gsub(".*?([0-9]+).*", "\\1", rubi_net$idmeter))
 rubi_net$X <- NULL
 rubi_net$idmeter<-as.numeric(rubi_net$idmeter)
